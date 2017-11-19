@@ -9,11 +9,11 @@ It contains docker files and bash scripts to install and configure php server an
 
 ### Set-up the toolbox:
 
-0. create if is needed a folder for your php/html source file. Example: 
+1. create if is needed a folder for your php/html source file. Example: 
    ``` bash
    mkdir /home/lumy/php-sources
    ```
-0. clone repo:
+1. clone repo:
    ``` bash
    git clone https://github.com/ovidiumiron/php-toolbox.git 
    ```
