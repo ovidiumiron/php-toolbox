@@ -4,7 +4,19 @@
  </head>
  <body>
  <?php 
- echo '<p>The instalation was succesful. Happy coding!</p>';
+ echo '<p>PHP server instalation was succesful.</p>';
  ?> 
+  <?php
+$servername = "172.17.0.3";
+$username = "root";
+$password = "1234";
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+// Check connection
+if ($conn->connect_error) {
+    die("Cannot connect to mysql: " . $conn->connect_error);
+} 
+echo "<p>Connection to mysql succesful."</p>;
+?>
  </body>
 </html>
