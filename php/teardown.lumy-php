@@ -1,0 +1,3 @@
+docker stop lumy-php
+docker rm lumy-php
+docker rmi lumy-php
