@@ -40,18 +40,15 @@ It contains docker files and bash scripts to install and configure php server an
    ./start.sh
    ``` 
 
-Test the enviroment:
-1. click [here](http://localhost:80/test-instalation.html). You should see "The instalation was succesful. Happy coding!"
+### Test the enviroment:
+Click [here](http://localhost:80/test-instalation.html). You should see "The instalation was succesful. Happy coding!"
 
 ### Use mysql-cli:
-
 TODO:
 
 ### Remove all the installed files:
-
 TODO:
 ### Troubleshooting:
-
 TODO:
 
 
