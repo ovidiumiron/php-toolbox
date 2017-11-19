@@ -3,11 +3,11 @@ Toolbox for learning php.
 
 It contains docker files and bash scripts to install and configure php server and  mysql server.  
 
-Prerequisite:
+### Prerequisite:
 
 1. docker
 
-Set-up the toolbox:
+### Set-up the toolbox:
 
 0. create if is needed a folder for your php/html source file. Example: 
    ``` bash
@@ -43,6 +43,15 @@ Set-up the toolbox:
 Test the enviroment:
 1. click [here](http://localhost:80/test-instalation.html). You should see "The instalation was succesful. Happy coding!"
 
-Troubleshooting:
+### Use mysql-cli:
+
+TODO:
+
+### Remove all the installed files:
+
+TODO:
+### Troubleshooting:
+
+TODO:
 
 
