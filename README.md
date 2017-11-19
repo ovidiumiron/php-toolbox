@@ -29,7 +29,7 @@ Set-up the toolbox:
    ``` 
 1. start php. Please, note that the command uses the php/html source file created at the first step:
    ```bash
-   ./start.toolbox-php.sh  /home/lumy/php-sources
+   ./start.sh  /home/lumy/php-sources
    ```
 1. change to mysql directory:
    ```bash
@@ -37,7 +37,7 @@ Set-up the toolbox:
    ```
 2. start mysql:
    ```bash
-   ./start.toolbox-mysql.sh
+   ./start.sh
    ``` 
 
 Test the enviroment:
