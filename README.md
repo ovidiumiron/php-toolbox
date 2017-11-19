@@ -23,15 +23,15 @@ Set-up the toolbox:
    cd php
    ./build.toolbox-php.sh
    ``` 
-1. Start-up php docker. Please note that the command uses the php/html source file created at the first step:
+1. start php. Please, note that the command uses the php/html source file created at the first step:
    ```bash
-   start.toolbox-php.sh  /home/lumy/php-sources
+   ./start.toolbox-php.sh  /home/lumy/php-sources
    ```
-1. jump to mysql directory:
+1. change to mysql directory:
    ```bash
    cd ../mysql
    ```
-2. set-up mysql:
+2. start mysql:
    ```bash
    ./start.toolbox-mysql.sh
    ``` 
