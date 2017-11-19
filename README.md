@@ -56,8 +56,9 @@ It contains docker files and bash scripts to install and configure php server an
 Click [here](http://localhost:80/test-instalation.html) to test the instalation. 
 You should see  
 ```
-PHP server instalation was succesful.
+PHP server instalation was succesful. 
 Connection to mysql succesful.
+Happy coding!
 ```
 
 ### Use mysql-cli:
