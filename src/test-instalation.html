@@ -4,19 +4,21 @@
  </head>
  <body>
  <?php 
- echo '<p>PHP server instalation was succesful.</p>';
+ echo 'PHP server instalation was succesful.\n';
  ?> 
   <?php
-$servername = "172.17.0.3";
+//Change this with the output from docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' toolbox-mysql
+$servername = "172.17.0.4";
 $username = "root";
 $password = "1234";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password);
 // Check connection
 if ($conn->connect_error) {
     die("Cannot connect to mysql: " . $conn->connect_error);
 } 
-echo "<p>Connection to mysql succesful."</p>;
+echo 'Connection to mysql succesful.\n';
 ?>
  </body>
 </html>

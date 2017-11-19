@@ -39,9 +39,26 @@ It contains docker files and bash scripts to install and configure php server an
    ```bash
    ./start.sh
    ``` 
+   Note: 
+
+   the IP of the mysql server is the output of docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' toolbox-mysql
+
+   the root password is `1234`
+
 
 ### Test the enviroment:
-Click [here](http://localhost:80/test-instalation.html). You should see "The instalation was succesful. Happy coding!"
+1. Get the IP of the mysql server:
+   ```bash
+   docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' toolbox-mysql
+    ```
+2. set the right IP for the mysql server by modifing the variable `$servername = "172.17.0.4";` from `test-instalation.html` located in the php/html source file created at the first step: 
+
+Click [here](http://localhost:80/test-instalation.html) to test the instalation. 
+You should see  
+```
+PHP server instalation was succesful.
+Connection to mysql succesful.
+```
 
 ### Use mysql-cli:
 TODO:
