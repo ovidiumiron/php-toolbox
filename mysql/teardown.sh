@@ -1,2 +1,2 @@
-docker stop lumy-mysql
-docker rm lumy-mysql
+docker stop toolbox-mysql
+docker rm toolbox-mysql

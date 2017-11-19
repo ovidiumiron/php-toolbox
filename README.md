@@ -11,18 +11,18 @@ Set-up the toolbox:
    ```
 1. set-up enviroment variables:
    ``` bash
-   export LUMY_PHP_SRC="/home/lumy/....."
+   export TOOLBOX_PHP_SRC="/home/lumy/....."
    ```
 1. set-up php:
    ```bash
    cd toolbox-php/php
-   ./build.lumy-php.sh
-   ./start.lumy-php.sh
+   ./build.toolbox-php.sh
+   ./start.toolbox-php.sh
    ``` 
 2. set-up mysql:
    ```bash
    cd toolbox-php/mysql
-   ./start.lumy-mysql.sh
+   ./start.toolbox-mysql.sh
    ``` 
 
 Test the enviroment:

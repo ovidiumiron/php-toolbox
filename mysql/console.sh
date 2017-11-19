@@ -1,1 +1,1 @@
-docker exec -it lumy-mysql mysql -u root -p
+docker exec -it toolbox-mysql mysql -u root -p
