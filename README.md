@@ -3,6 +3,10 @@ Toolbox for learning php.
 
 It contains docker files and bash scripts to install and configure php server and  mysql server.  
 
+Prerequisite:
+
+1. docker
+
 Set-up the toolbox:
 
 0. create if is needed a folder for your php/html source file. Example: 
