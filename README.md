@@ -4,6 +4,7 @@ Toolbox for learning php.
 It contains docker files and bash scripts to install and configure php server and  mysql server.  
 
 Set-up the toolbox:
+
 0. clone repo:
    ``` bash
    git clone https://github.com/ovidiumiron/php-toolbox.git 
