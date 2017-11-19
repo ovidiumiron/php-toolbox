@@ -41,7 +41,7 @@ Set-up the toolbox:
    ``` 
 
 Test the enviroment:
-1. click [here](http://localhost:80/test_instalation.html). You should see "The instalation was succesful. Happy coding!"
+1. click [here](http://localhost:80/test-instalation.html). You should see "The instalation was succesful. Happy coding!"
 
 Troubleshooting:
 
