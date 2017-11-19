@@ -41,9 +41,11 @@ It contains docker files and bash scripts to install and configure php server an
    ``` 
    Note: 
 
-   the IP of the mysql server is the output of docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' toolbox-mysql
-
-   the root password is `1234`
+   - the IP of the mysql server is the output of 
+   ```bash
+   docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' toolbox-mysql
+   ``` 
+   - the password for the `root` is `1234`
 
 
 ### Test the enviroment:
