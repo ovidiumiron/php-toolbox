@@ -67,7 +67,16 @@ Happy coding!
 To connect to mysql server cli use the script `console.sh` from `mysql` folder. The script is connecting to mysql server as `root`. The password for `root` is `1234`.
 
 ### Remove all the installed files:
-TODO:
+1. php:
+   ```bash
+   cd php
+   ./teardown.sh
+   ```
+ 2. mysql:
+    ```bash
+    cd mysql
+    ./teardown.sh
+    ```
 ### Troubleshooting:
 TODO:
 
