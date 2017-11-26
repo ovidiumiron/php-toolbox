@@ -19,7 +19,7 @@ It contains docker files and bash scripts to install and configure php server an
    ```
 1. copy the content of the `src` folder to the new created directory:
    ```bash
-   cd toolbox-php
+   cd php-toolbox
    cp src/* /home/lumy/php-sources
    ```
 1. set-up php:
