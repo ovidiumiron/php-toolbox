@@ -77,6 +77,24 @@ To connect to mysql server cli use the script `console.sh` from `mysql` folder. 
     cd mysql
     ./teardown.sh
     ```
+    
+### How to start the services:
+Let say you have restarted the machine. In this case the docker containers should be started again:
+1. mysql:
+   ```bash
+   docker start toolbox-mysql
+   ```
+2. php:
+   ```bash
+   docker start toolbox-php
+   ```
+   
+If you run:
+```bash
+docker ps 
+```
+you should see both containers active.
+
 ### Troubleshooting:
 TODO:
 
